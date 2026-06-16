@@ -2,7 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: fitness-tracker-app
-  namespace: fitness# Deployed to default namespace as requested
+  namespace: fitness
+  # Deployed to default namespace as requested
 spec:
   replicas: 1
   selector:
